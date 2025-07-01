@@ -56,12 +56,12 @@ public:
         }
 
         int grade;
-        cout << "Enter grade (1-12): ";
+        cout << "Enter grade (2-5): ";
         cin >> grade;
         cin.ignore();
 
-        if (grade < 1 || grade > 12) {
-            cout << "Invalid grade! Must be between 1 and 12.\n";
+        if (grade < 2 || grade > 5 ) {
+            cout << "Invalid grade! Must be between 2 and 5.\n";
             return;
         }
 
